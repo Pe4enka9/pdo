@@ -44,6 +44,8 @@ if (isset($_SESSION['user'])) {
 
     <a href="./pages/register.php">Зарегистрироваться</a>
   </form>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
