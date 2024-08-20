@@ -116,3 +116,7 @@ a {
 
   cursor: pointer;
 }
+
+#invalidData {
+  color: #c22828;
+}

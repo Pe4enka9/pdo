@@ -42,6 +42,15 @@ if (isset($_SESSION['user'])) {
         </div>
       </div>
 
+      <span id="invalidData">
+        <?php
+        if (isset($_SESSION['invalidData'])) {
+          echo $_SESSION['invalidData'];
+          unset($_SESSION['invalidData']);
+        }
+        ?>
+      </span>
+
       <input type="submit" id="btn" value="Войти" />
     </div>
 
