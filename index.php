@@ -32,11 +32,14 @@ if (isset($_SESSION['user'])) {
 
       <div class="wrapper password_wrapper">
         <label for="password">Пароль</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          autocomplete="off" placeholder="Введите пароль" />
+        <div class="pass_eyes">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            autocomplete="off" placeholder="Введите пароль" />
+          <div class="pass pass_hide"></div>
+        </div>
       </div>
 
       <input type="submit" id="btn" value="Войти" />
