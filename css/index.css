@@ -11,6 +11,8 @@ body {
 
   background-color: #333;
   color: #dfdfdf;
+
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -69,4 +71,13 @@ input {
 
 #btn:hover {
   background-color: #196619;
+}
+
+a {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+
+  color: #0672ee;
 }

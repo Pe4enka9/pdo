@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once '../connect.php';
 
 $login = $_POST['login'];
@@ -16,5 +17,5 @@ $stmt->execute([
 ]);
 
 if ($stmt->rowCount() > 0) {
-    header('Location: ../index.php');
+    header('Location: /');
 }
